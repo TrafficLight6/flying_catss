@@ -1,0 +1,44 @@
+*{
+    font-family: '微软雅黑';
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h5{
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+}
+
+a:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+body{
+    background-image: url(admin_bg.jpg);
+    background-size: cover;
+}
+
+.left,.right{
+    float: left;
+}
+
+.left{
+    width:10%;
+    height: 690px;
+    background-color: #5e5e5e;
+}
+
+.right{
+    margin-top: 15px;
+    margin-left: 70px;
+    height: 650px;
+    width: 80%;
+    background-color: #ffffff9e;
+    border-radius: 5px;
+    overflow:scroll;
+}

@@ -1,0 +1,7 @@
+.right *{
+    margin: 10px;
+}
+
+.right{
+    overflow: scroll;
+}

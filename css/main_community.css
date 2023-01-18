@@ -1,0 +1,156 @@
+/* 全局设置 */
+*{
+    font-family: '华文行楷';
+    margin: 0px;
+    padding: 0px;
+}
+
+br{
+    margin-top: 20px;
+}
+
+a{
+    text-align: right;
+    font-size: 10px;
+    color: rgb(255, 230, 0);
+    text-decoration:none;
+}
+
+a:hover{
+    color: rgb(255, 230, 0);
+    background-color: white;
+}
+/* 盒设置 */
+/* 导航栏 */
+.header{
+    padding-top: 0px;
+    width: 100%;
+    height: 160px;
+    background-color: aqua;
+}
+
+.top{
+    height: 75%;
+    background-image: url(header_community_bg.png);
+    background-size: cover;
+}
+
+.top h1{
+    color: rgb(255, 230, 0);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.top p{
+    padding-top: 5px;
+    color: rgb(255, 230, 0);
+    text-align: center;
+}
+
+.top form{
+    padding-left: 80%;
+}
+
+.top form input,.top form input::placeholder{
+    border-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    background-color: rgba(255, 230, 0,0.2);
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.top form .sub{
+    width: 50px;
+}
+
+.link{
+    color: rgb(255, 230, 0);
+    padding-top: 8px;
+    text-align: right;
+    height: 20%;
+    background: #ff0000;
+}
+
+.link a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* 主体 */
+.main{
+    width: 100%;
+    height:600px; /* 尺寸暂定 */
+}
+
+.left div p,.left div h2{
+    margin-left: 5px;
+}
+
+.main a{
+    color:rgb(255, 230, 0);
+}
+
+.main a:hover{
+    color: #000000;
+}
+
+.left,.right{
+    float: left;
+}
+
+.left h2,.left h3,.left p{
+    color: rgb(255, 230, 0);
+}
+
+.left div{
+    background-color:rgb(255, 0, 0);
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.left{
+    overflow: scroll;
+}
+
+.user a::before{
+    content: "★";
+}
+
+.right{
+    /* margin-left: 10px; */
+    height: 100%;
+    width: 80%;
+}
+
+.notice{
+    border-style: solid;
+    border-radius: 15px;
+    background-color:white;
+    width: 1200px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.n_review,.a_review{
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-top: 15px;
+    border-style: solid;
+    width: 40%;
+    float: left;
+}
+
+.user a,.user h3{
+    margin-left: 15px;
+}
+
+/* 页尾 */
+.footter{
+    color: white;
+    height: 50px;
+    background-color: #ff0000;
+    text-align: center;
+}
