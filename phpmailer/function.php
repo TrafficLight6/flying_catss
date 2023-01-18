@@ -23,17 +23,17 @@
             $mail->CharSet ="UTF-8";                                    //设定邮件编码
                 $mail->SMTPDebug = 0;                                       // 调试模式输出
             $mail->isSMTP();                                            // 使用SMTP
-            $mail->Host = 'smtp.126.com';                               // SMTP服务器
+            $mail->Host = '邮箱供应商的smtp服务器域名';                               // SMTP服务器
             $mail->SMTPAuth = true;                                     // 允许 SMTP 认证
-            $mail->Username = 'trafficlight6@126.com';                  // SMTP 用户名  即邮箱的用户名
-            $mail->Password = 'LYODIHFJWXBRQYZK';                       // SMTP 密码  部分邮箱是授权码(例如163邮箱)
+            $mail->Username = '你的邮箱';                  // SMTP 用户名  即邮箱的用户名
+            $mail->Password = '你的邮箱SMTP密码';                       // SMTP 密码  部分邮箱是授权码(例如163邮箱)
             $mail->SMTPSecure = 'ssl';                                  // 允许 TLS 或者ssl协议
             $mail->Port = 465;                                          // 服务器端口 25 或者465 126.com为465
 
-            $mail->setFrom('trafficlight6@126.com', 'Flying catss官方');    //发件人
+            $mail->setFrom('你的邮箱', 'Flying catss官方');    //发件人
             $mail->addAddress($useremail, $username);              //收件人
             //$mail->addAddress('ellen@example.com');                   // 可添加多个收件人
-            $mail->addReplyTo('trafficlight6@126.com', 'Flying catss官方'); //回复的时候回复给哪个邮箱 建议和发件人一致
+            $mail->addReplyTo('你的邮箱', 'Flying catss官方'); //回复的时候回复给哪个邮箱 建议和发件人一致
             //$mail->addCC('cc@example.com');                           //抄送
             //$mail->addBCC('bcc@example.com');                         //密送
 
@@ -69,17 +69,17 @@
             $mail->CharSet ="UTF-8";                                    //设定邮件编码
             $mail->SMTPDebug = 0;                                       // 调试模式输出
             $mail->isSMTP();                                            // 使用SMTP
-            $mail->Host = 'smtp.126.com';                               // SMTP服务器
+            $mail->Host = '邮箱供应商的smtp服务器域名';                               // SMTP服务器
             $mail->SMTPAuth = true;                                     // 允许 SMTP 认证
-            $mail->Username = 'trafficlight6@126.com';                  // SMTP 用户名  即邮箱的用户名
-            $mail->Password = 'LYODIHFJWXBRQYZK';                       // SMTP 密码  部分邮箱是授权码(例如163邮箱)
+            $mail->Username = '你的邮箱';                  // SMTP 用户名  即邮箱的用户名
+            $mail->Password = '你的邮箱SMTP密码';                       // SMTP 密码  部分邮箱是授权码(例如163邮箱)
             $mail->SMTPSecure = 'ssl';                                  // 允许 TLS 或者ssl协议
             $mail->Port = 465;                                          // 服务器端口 25 或者465 126.com为465
 
-            $mail->setFrom('trafficlight6@126.com', 'Flying catss官方');    //发件人
+            $mail->setFrom('你的邮箱', 'Flying catss官方');    //发件人
             $mail->addAddress($useremail, $username);              //收件人
             //$mail->addAddress('ellen@example.com');                   // 可添加多个收件人
-            $mail->addReplyTo('trafficlight6@126.com', 'Flying catss官方'); //回复的时候回复给哪个邮箱 建议和发件人一致
+            $mail->addReplyTo('你的邮箱', 'Flying catss官方'); //回复的时候回复给哪个邮箱 建议和发件人一致
             //$mail->addCC('cc@example.com');                           //抄送
             //$mail->addBCC('bcc@example.com');                         //密送
 
@@ -110,17 +110,17 @@
             $mail->CharSet ="UTF-8";                                    //设定邮件编码
                 $mail->SMTPDebug = 0;                                       // 调试模式输出
             $mail->isSMTP();                                            // 使用SMTP
-            $mail->Host = 'smtp.126.com';                               // SMTP服务器
+            $mail->Host = '邮箱供应商的smtp服务器域名';                               // SMTP服务器
             $mail->SMTPAuth = true;                                     // 允许 SMTP 认证
-            $mail->Username = 'trafficlight6@126.com';                  // SMTP 用户名  即邮箱的用户名
-            $mail->Password = 'LYODIHFJWXBRQYZK';                       // SMTP 密码  部分邮箱是授权码(例如163邮箱)
+            $mail->Username = '你的邮箱';                  // SMTP 用户名  即邮箱的用户名
+            $mail->Password = '你的邮箱SMTP密码';                       // SMTP 密码  部分邮箱是授权码(例如163邮箱)
             $mail->SMTPSecure = 'ssl';                                  // 允许 TLS 或者ssl协议
             $mail->Port = 465;                                          // 服务器端口 25 或者465 126.com为465
 
-            $mail->setFrom('trafficlight6@126.com', 'Flying catss官方');    //发件人
+            $mail->setFrom('你的邮箱', 'Flying catss官方');    //发件人
             $mail->addAddress($useremail);              //收件人
             //$mail->addAddress('ellen@example.com');                   // 可添加多个收件人
-            $mail->addReplyTo('trafficlight6@126.com', 'Flying catss官方'); //回复的时候回复给哪个邮箱 建议和发件人一致
+            $mail->addReplyTo('你的邮箱', 'Flying catss官方'); //回复的时候回复给哪个邮箱 建议和发件人一致
             //$mail->addCC('cc@example.com');                           //抄送
             //$mail->addBCC('bcc@example.com');                         //密送
 
@@ -152,17 +152,17 @@
             $mail->CharSet ="UTF-8";                                    //设定邮件编码
                 $mail->SMTPDebug = 0;                                       // 调试模式输出
             $mail->isSMTP();                                            // 使用SMTP
-            $mail->Host = 'smtp.126.com';                               // SMTP服务器
+            $mail->Host = '邮箱供应商的smtp服务器域名';                               // SMTP服务器
             $mail->SMTPAuth = true;                                     // 允许 SMTP 认证
-            $mail->Username = 'trafficlight6@126.com';                  // SMTP 用户名  即邮箱的用户名
-            $mail->Password = 'LYODIHFJWXBRQYZK';                       // SMTP 密码  部分邮箱是授权码(例如163邮箱)
+            $mail->Username = '你的邮箱';                  // SMTP 用户名  即邮箱的用户名
+            $mail->Password = '你的邮箱SMTP密码';                       // SMTP 密码  部分邮箱是授权码(例如163邮箱)
             $mail->SMTPSecure = 'ssl';                                  // 允许 TLS 或者ssl协议
             $mail->Port = 465;                                          // 服务器端口 25 或者465 126.com为465
 
-            $mail->setFrom('trafficlight6@126.com', 'Flying catss官方');    //发件人
+            $mail->setFrom('你的邮箱', 'Flying catss官方');    //发件人
             $mail->addAddress($useremail);              //收件人
             //$mail->addAddress('ellen@example.com');                   // 可添加多个收件人
-            $mail->addReplyTo('trafficlight6@126.com', 'Flying catss官方'); //回复的时候回复给哪个邮箱 建议和发件人一致
+            $mail->addReplyTo('你的邮箱', 'Flying catss官方'); //回复的时候回复给哪个邮箱 建议和发件人一致
             //$mail->addCC('cc@example.com');                           //抄送
             //$mail->addBCC('bcc@example.com');                         //密送
 
