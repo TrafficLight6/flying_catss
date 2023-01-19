@@ -19,8 +19,8 @@
                 <br>
                 <br>
                 <form name="signup" onsubmit="return mycheak()" method="post" action="/?doid=3">
-                    <p>用户名（除特殊情况外，加入本站后不得改名）<input name="username" type="text" size="30" maxlength="30">(上限为30个字符)</p>
-                    <p>邮箱<input name="email" type="email" size="30">(上限为255个字符)</p>    
+                    <p>用户名（除特殊情况外，加入本站后不得改名）<input name="username" type="text" size="30" maxlength="30" autocomplete="off">(上限为30个字符)</p>
+                    <p>邮箱<input name="email" type="email" size="30" autocomplete="off">(上限为255个字符)</p>    
                     <p>密码<input name="password" type="password" size="30"></p>
                     <p>确认密码<input name="mspassword" type="password" size="30"></p>
                     <p><em>关于密码的小声比比</em></p>
@@ -33,10 +33,10 @@
                         <li><em>如果可以，建议密码不要有重复内容</em></li>
                     </ol>
                     <h2>问答</h2>
-                    <p>1、请不带书名号，打出本站站规全称<input name="qa" type="text"></p>
-                    <p>2、如果有人在你的帖子下说：“这写的什么玩意？我写的都比你好”你会回答：<input name="qb" type="text" size="60"></p>
-                    <p>3、如果有人在你的帖子下说：“兄弟，我想把这帖子转载到某某某站上”，你<u>  拒绝  </u>，你会回答：<input name="qc" type="text" size="60"></p>
-                    <p>4、如果管理员在帖子下方警告你请用词文明，否则将会封号，你会回答：<input name="qd" type="text" size="60"></p>
+                    <p>1、请不带书名号，打出本站站规全称<input name="qa" type="text" autocomplete="off"></p>
+                    <p>2、如果有人在你的帖子下说：“这写的什么玩意？我写的都比你好”你会回答：<input name="qb" type="text" size="60" autocomplete="off"></p>
+                    <p>3、如果有人在你的帖子下说：“兄弟，我想把这帖子转载到某某某站上”，你<u>  拒绝  </u>，你会回答：<input name="qc" type="text" size="60" autocomplete="off"></p>
+                    <p>4、如果管理员在帖子下方警告你请用词文明，否则将会封号，你会回答：<input name="qd" type="text" size="60" autocomplete="off"></p>
                     <p>5、关于你的一篇<u>  简单的,无标题的  </u>自我介绍。（800字以内）</p>
                     <textarea name="qe" cols="100" rows="20" wrap="soft"></textarea>
                     <br>

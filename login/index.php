@@ -15,8 +15,8 @@
         </div>
         <form name="login" method="post">
         <div class="input">
-            <p><input class="text" type="text" placeholder="用户名" name="username"></p>
-            <p><input class="text" type="password" placeholder="密码" name="password"></p>
+            <p><input class="text" type="text" placeholder="用户名" name="username" autocomplete="off"></p>
+            <p><input class="text" type="password" placeholder="密码" name="password" autocomplete="off"></p>
         </div>
         <p><input class="checkbox" type="checkbox" name="keep_log" value="1">保持登录状态</p>
         <p><input class="sub" type="submit" value="登录"></p>
