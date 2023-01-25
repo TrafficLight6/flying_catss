@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="right">
-            <h1>所有来稿请发到邮箱：TrafficLight6@outlook.com</h1>
+            <h1>所有来稿请发到邮箱：xxxxxxxxxxx@xxx.com（自己写）</h1>
         </div>
     </div>
     <div class="footter"><a href="#">备案号：**********</a></div>
